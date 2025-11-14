@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.10, <3.14"
 resolution-markers = [
     "python_full_version >= '3.13' and platform_machine == 'arm64' and sys_platform == 'darwin'",
@@ -1455,7 +1455,7 @@ wheels = [
 
 [[package]]
 name = "composio"
-version = "0.8.5"
+version = "0.9.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "composio-client" },
@@ -1464,14 +1464,14 @@ dependencies = [
     { name = "pysher" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/46/31/c9486e483832199f957c6728b2479ffd8946af1b7f69297aca5c0c8b1b1a/composio-0.8.5.tar.gz", hash = "sha256:7e5a5c2cfc3d13083c35e0279cd28e9df30acaae21632cb0eb7f948e6500a2a6", size = 38268, upload-time = "2025-07-24T11:44:35.777Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/1a/49395ad89ac93adf83038989e46801f9c56fc529146047f92406342b758f/composio-0.9.2.tar.gz", hash = "sha256:a8584e2321123a8b4536b1564ebd6a0519220d6cadea849ccbf8fc6f1afff190", size = 78508, upload-time = "2025-11-10T12:40:49.116Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a3/7f/b5bc19d2246e3171227cfe6f33a63f5e3670d09ff535d7a9c7a94658c1fb/composio-0.8.5-py3-none-any.whl", hash = "sha256:b673554a0276c5394d639382edb7300a8c0506a1452316535eb7cc17daff0528", size = 47275, upload-time = "2025-07-24T11:44:22.666Z" },
+    { url = "https://files.pythonhosted.org/packages/20/07/b3a95802b01ade7cd4b5568cbc61a8227bd351ec922907a62cbfd200d964/composio-0.9.2-py3-none-any.whl", hash = "sha256:022762c0c69d072aead35f0a979843e408015fc99bcba51ef80deb9339870602", size = 73584, upload-time = "2025-11-10T12:40:34.663Z" },
 ]
 
 [[package]]
 name = "composio-client"
-version = "1.6.0"
+version = "1.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -1481,22 +1481,22 @@ dependencies = [
     { name = "sniffio" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/21/a2/71e97c8f9c0c4fb0a1734417f629c83717c5f973b0cd8ccb95b803dd9224/composio_client-1.6.0.tar.gz", hash = "sha256:2adaf9bdaf449384d1d32f9361af20009c0675c68381cd9e9a4234f08969ab23", size = 169235, upload-time = "2025-07-21T06:07:18.72Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e0/fd/44f8efd598a038ebd6ad05351ac56723cb2ade6b45ffd2252a03d3c046be/composio_client-1.13.0.tar.gz", hash = "sha256:5df08f5a1db5973811a11b2778b0d9b3e8e919d60800e1069a39ce7e478ec138", size = 169964, upload-time = "2025-11-10T11:52:57.016Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4f/2c/19f4ff86f0b3c5fb442e70185ead4feae6237abecfb35f109c9ccc2a6d5e/composio_client-1.6.0-py3-none-any.whl", hash = "sha256:e32055eeae8b49e7b94329808604f849e74bc557a453d3e37b37fe5cb627930b", size = 199273, upload-time = "2025-07-21T06:07:17.316Z" },
+    { url = "https://files.pythonhosted.org/packages/fc/cd/e3c2c6191dc73a6f4d265d5a9c5ab83d120dd2a5be0225a7f396b1c0d614/composio_client-1.13.0-py3-none-any.whl", hash = "sha256:e9471bcb9337c04ee5e9fa0267a1a480dc7d46ec83ed1258d92b5cb7abc7ea6d", size = 179889, upload-time = "2025-11-10T11:52:55.75Z" },
 ]
 
 [[package]]
 name = "composio-langchain"
-version = "0.8.5"
+version = "0.9.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "composio" },
     { name = "langchain" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/48/fe/43cac59464b70794ab56d9e79d2a6325e067208beedf8f647ef100af4a71/composio_langchain-0.8.5.tar.gz", hash = "sha256:2ed844fd9cec9f2fce1e7f4a7a8e3cde9b1921277a6835d21ab6e0d05e4aa847", size = 3072, upload-time = "2025-07-24T11:44:41.2Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/97/cc/669386924108b555eddbe6d8b5a34695620dac9377efb3dde073868c56d0/composio_langchain-0.9.2.tar.gz", hash = "sha256:1b31dae214937b220faa87ffef783638d4ab4a09622f7bc46331612f3ccb93d4", size = 3057, upload-time = "2025-11-10T12:40:53.593Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/fe/9463c00a48a740e13af0ac82af6091a6ab536d19d0bae5f00c1a6154bc47/composio_langchain-0.8.5-py3-none-any.whl", hash = "sha256:b7e983944aa352b0b763086ae57ac93ce3a7c9d845295c60378e3f196c13cf4e", size = 3351, upload-time = "2025-07-24T11:44:31.291Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/35/9405ae02b26c91c46e251fe20158e7305b1175c8ee52ed613ddfe4dde8d1/composio_langchain-0.9.2-py3-none-any.whl", hash = "sha256:a3126625d69102fb73e902883c60769c3548df3fa3b902ebcb436bca8bac0980", size = 3363, upload-time = "2025-11-10T12:40:44.04Z" },
 ]
 
 [[package]]
@@ -3235,6 +3235,19 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/9d/aa/eaeefdeec8fb35dc707be4f3fa0b0034053727aa0ce6729fe13f6ce22751/geventhttpclient-2.3.5-cp313-cp313-win_amd64.whl", hash = "sha256:4d89b59ee8b672b355a598dd2a964b768c1acf9e0c3429bb8e393a9eea31dd26", size = 48986, upload-time = "2025-10-26T10:33:26.39Z" },
     { url = "https://files.pythonhosted.org/packages/14/b9/e2db0e399259d44c95de5f333dd71e3b714f38b85c23e4a1b6a30c407969/geventhttpclient-2.3.5-pp310-pypy310_pp73-win_amd64.whl", hash = "sha256:d0798ae0f576e0153479a1a051f2cf0611cfcf63776d5d5c605da32a4ce728ce", size = 49053, upload-time = "2025-10-26T10:33:53.668Z" },
     { url = "https://files.pythonhosted.org/packages/e2/e4/8ef48ecdf73c297be4d2691c842e3e285416267d44236ce8cb861dfe20c0/geventhttpclient-2.3.5-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:cbdba8426ec9c4cf36ca8687695c53fcd4024d994f409a8ff8724c2a23292164", size = 49050, upload-time = "2025-10-26T10:33:54.49Z" },
+]
+
+[[package]]
+name = "gigachat"
+version = "0.1.42.post2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f3/65/be50c11d851f6330d2e4b761070922eb377f06c703983a7ee7586c4d350c/gigachat-0.1.42.post2.tar.gz", hash = "sha256:bef416d62cb603b4f71ded1752a4a6e258bafa25bc0a3de2d03a8e60eb09971e", size = 34058, upload-time = "2025-08-25T14:38:59.706Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ba/f9/1cbd9f592f5deb75696acd4d8573f52a46aa5bbe8e467d2708f91bca4d66/gigachat-0.1.42.post2-py3-none-any.whl", hash = "sha256:db7c0bd1db9e4ca0b78f73a533553dcfc79bf1eb0eba951aad0f00b9e7aacc48", size = 69704, upload-time = "2025-08-25T14:38:58.276Z" },
 ]
 
 [[package]]
@@ -5073,6 +5086,20 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-gigachat"
+version = "0.3.12"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "gigachat" },
+    { name = "langchain-core" },
+    { name = "types-requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/92/4a/9e8dfe5073d8364e5f62ec41af9a618d13ffd7edf7bfad1bd6af590ff550/langchain_gigachat-0.3.12.tar.gz", hash = "sha256:35312a041f56c344e234777bed0c3d5b6e90542d832afbfb225f2728a51a5af5", size = 22693, upload-time = "2025-07-23T14:23:09.011Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2a/17/48e8fa50ac1e8025c6c55c16b47fb2b003619bb8fd47072ea55cce8f01d5/langchain_gigachat-0.3.12-py3-none-any.whl", hash = "sha256:e7ee809a7e9c2dc8d5339f50c8478cad2bb24829db923b641142b5c1d4d991fe", size = 27364, upload-time = "2025-07-23T14:23:07.6Z" },
+]
+
+[[package]]
 name = "langchain-google-calendar-tools"
 version = "0.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -5425,6 +5452,7 @@ dependencies = [
     { name = "langchain-cohere" },
     { name = "langchain-community" },
     { name = "langchain-elasticsearch" },
+    { name = "langchain-gigachat" },
     { name = "langchain-google-calendar-tools" },
     { name = "langchain-google-community" },
     { name = "langchain-google-genai" },
@@ -5581,7 +5609,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "agent-lifecycle-toolkit" },
+    { name = "agent-lifecycle-toolkit", specifier = "~=0.4.1" },
     { name = "aiofile", specifier = ">=3.9.0,<4.0.0" },
     { name = "aiosqlite", specifier = "==0.21.0" },
     { name = "apify-client", specifier = ">=1.8.1,<2.0.0" },
@@ -5597,8 +5625,8 @@ requires-dist = [
     { name = "chromadb", specifier = ">=1.0.0,<2.0.0" },
     { name = "cleanlab-tlm", specifier = ">=1.1.2,<2.0.0" },
     { name = "clickhouse-connect", marker = "extra == 'clickhouse-connect'", specifier = "==0.7.19" },
-    { name = "composio", specifier = "==0.8.5" },
-    { name = "composio-langchain", specifier = "==0.8.5" },
+    { name = "composio", specifier = "==0.9.2" },
+    { name = "composio-langchain", specifier = "==0.9.2" },
     { name = "couchbase", marker = "extra == 'couchbase'", specifier = ">=4.2.1" },
     { name = "cryptography", specifier = ">=43.0.1,<44.0.0" },
     { name = "ctransformers", marker = "extra == 'local'", specifier = ">=0.2.10" },
@@ -5636,6 +5664,7 @@ requires-dist = [
     { name = "langchain-community", specifier = ">=0.3.21,<1.0.0" },
     { name = "langchain-docling", marker = "extra == 'docling'", specifier = ">=1.1.0" },
     { name = "langchain-elasticsearch", specifier = "==0.3.0" },
+    { name = "langchain-gigachat", specifier = "==0.3.12" },
     { name = "langchain-google-calendar-tools", specifier = "==0.0.1" },
     { name = "langchain-google-community", specifier = "==2.0.3" },
     { name = "langchain-google-genai", specifier = "==2.0.6" },
